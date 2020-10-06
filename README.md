@@ -1,1 +1,1 @@
-# Azurr-Functions-Python-Demos
+# Azure-Functions-Python-Labs-Demos
