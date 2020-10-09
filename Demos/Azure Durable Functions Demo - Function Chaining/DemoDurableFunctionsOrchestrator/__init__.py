@@ -14,6 +14,8 @@ import azure.durable_functions as df
 
 def orchestrator_function(context: df.DurableOrchestrationContext):
 
+    #code snippet refactored from https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=python#chaining
+
     input = context.get_input()
     activity_one_result = yield context.call_activity('DemoHelloActivity1', input.get('name'))
 
