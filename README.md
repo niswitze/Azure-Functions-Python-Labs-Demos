@@ -4,7 +4,4 @@ This repository contains examples of Azure Functions and Durable Functions writt
 
 
 </br>
-If there are any problems found with these examples or requests for specific examples to be added, please fill out an issue in this repository describing your problem or request.
-
-</br>
-</br>
+If there are any problems found with these examples or requests for specific examples to be added, please raise an issue in this repository describing your problem or request.
