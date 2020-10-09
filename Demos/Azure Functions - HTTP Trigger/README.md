@@ -1,6 +1,6 @@
-# Azure Durable Functions Demo - Async HTTP APIs
+# Azure Functions - HTTP Trigger
 
-This is a demo of an HTTP trigger based Azure Durable Function, written in Python. This function app contains three functions and demonstrates a pattern for creating <a href="https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=csharp#async-http">Async HTTP APIs</a>. An HTTP trigger based orchestration client function, an orchestrator function, and an activity function.
+This is a demo of an HTTP trigger based Azure Function, written in Python. This function app contains one HTTP trigger based function and demonstrates the default project setup used when creating function app(s)/function(s) locally using the Azure Functions Core Tools.
 
 </br>
 To run this demo locally, please use the following steps:
