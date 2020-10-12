@@ -3,4 +3,6 @@
 # Manually managing azure-functions-worker may cause unexpected issues
 
 azure-functions
+
+#package for exporting logs directly to Azure Monitor
 opencensus-ext-azure

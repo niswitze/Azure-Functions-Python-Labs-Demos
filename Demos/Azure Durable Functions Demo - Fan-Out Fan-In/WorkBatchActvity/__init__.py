@@ -11,6 +11,8 @@ import numpy as np
 
 def main(binding=None) -> list:
 
+    #the data returned from an activity function must be JSON serializable
     random_numbers_list = np.random.randint(1,26,10).tolist()
+    
     return random_numbers_list
 
