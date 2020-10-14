@@ -14,6 +14,9 @@ Please use the below steps to configure your machine for running & debugging Pyt
 
 <ol>
     <li>Install the initial set of prerequisites found <a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-vs-code?pivots=programming-language-python#configure-your-environment">here</a>
+    <ul>
+        <li><b>NOTE</b> - An active Azure subscription is not needed for running these demos and labs locally
+    </ul>
     <li>Download and install the <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator">Azure Storage Emulator</a>
         <ul>
         <li><b>NOTE</b> - The Azure Storage Emulator is currently being replaced by <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azurite">Azurite</a>, which will be the future solution for emulating Azure Storage locally. However, it does not currently support some major features of Azure Storage which is why the Azure Storage Emulator is the recommended solution for the demos and labs in this repository for now
