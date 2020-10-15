@@ -24,7 +24,7 @@ Please use the below steps to configure your machine for running & debugging Pyt
     <li>Download and install <a href="https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows#download-and-install">Azure Storage Explorer</a>
     <li> <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator#start-and-initialize-the-storage-emulator">Start and initialize</a> the Azure Storage Emulator
         <ul>
-            <li>If the Azure Storage Emulator has not already been initiliazed on install, please search for the executable <b>AzureStorageEmulator.exe</b> and execute the command <b>AzureStorageEmulator.exe start</b> in the directory where this executable exists
+            <li>If the Azure Storage Emulator has not already been initiliazed on install, please search for the executable <b>AzureStorageEmulator.exe</b> and execute the commands <b>AzureStorageEmulator.exe init</b> and <b>AzureStorageEmulator.exe start</b> in the directory where this executable exists
             <li><b>NOTE</b> - For windows users, this directory should be something similar to <b>C:\Program Files (x86)\Microsoft SDKs\Azure\Storage Emulator</b>
         </ul>
     <li>Ensure Azure Storage Explorer can connect to the Local & Attached Storage Account named <b>Emulator</b>
