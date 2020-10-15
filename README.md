@@ -1,6 +1,6 @@
 # Azure Functions - Labs & Demos
 
-This repository contains examples of Azure Functions and Durable Functions written in Python. These demos and labs are all based off Microsoft's public Azure documentation on <a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python">Azure Functions</a>, <a href="https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=python">Durable Functions</a>, and <a href="https://docs.microsoft.com/en-us/azure/developer/python/">Azure Python Development</a>.
+This repository contains examples of Azure Functions and Durable Functions written in Python. These demos and labs are all based on Microsoft's public Azure documentation on <a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python">Azure Functions</a>, <a href="https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=python">Durable Functions</a>, and <a href="https://docs.microsoft.com/en-us/azure/developer/python/">Azure Python Development</a>.
 
 
 If there are any problems found with these examples or requests for specific examples to be added, please raise an issue in this repository describing your problem or request.
@@ -19,7 +19,7 @@ Please use the below steps to configure your machine for running & debugging Pyt
     </ul>
     <li>Download and install the <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator">Azure Storage Emulator</a>
         <ul>
-        <li><b>NOTE</b> - The Azure Storage Emulator is currently being replaced by <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azurite">Azurite</a>, which will be the future solution for emulating Azure Storage locally. However, it does not currently support some major features of Azure Storage which is why the Azure Storage Emulator is the recommended solution for the demos and labs in this repository for now
+        <li><b>NOTE</b> - The Azure Storage Emulator is currently being replaced by <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azurite">Azurite</a>, which will be the future solution for emulating Azure Storage locally. However, it does not currently support some major features of Azure Storage which is why the Azure Storage Emulator is the recommended solution for the demos and labs in this repository for now.
         </ul>
     <li>Download and install <a href="https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows#download-and-install">Azure Storage Explorer</a>
     <li> <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator#start-and-initialize-the-storage-emulator">Start and initialize</a> the Azure Storage Emulator
